@@ -21,7 +21,9 @@
 
 // export default App;
 
+import React from "react";
 import { useState, useEffect } from 'react';
+import "./App.css";
 
 import { ethers } from 'ethers';
 import logo from './logo.svg';
