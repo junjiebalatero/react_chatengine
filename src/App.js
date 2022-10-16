@@ -26,7 +26,7 @@ import { useState, useEffect } from 'react';
 import "./App.css";
 
 import { ethers } from 'ethers';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 
 function App() {
 	const [haveMetamask, sethaveMetamask] = useState(true);
@@ -40,16 +40,26 @@ function App() {
 
 	const provider = new ethers.providers.Web3Provider(window.ethereum);
 
-	useEffect(() => {
-		const { ethereum } = window;
-		const checkMetamaskAvailability = async () => {
-			if (!ethereum) {
-				sethaveMetamask(false);
-			}
-			sethaveMetamask(true);
-		};
-		checkMetamaskAvailability();
-	}, []);
+	// useEffect(() => {
+	// 	const { ethereum } = window;
+	// 	const checkMetamaskAvailability = async () => {
+	// 		if (!ethereum) {
+	// 			sethaveMetamask(false);
+	// 		}
+	// 		sethaveMetamask(true);
+	// 	};
+	// 	checkMetamaskAvailability();
+	// }, []);
+
+  const [date, setDate] = useState(null);
+  useEffect(() => {
+    async function getDate() {
+      const res = await fetch("/api/date");
+      const newDate = await res.text();
+      setDate(newDate);
+    }
+    getDate();
+  }, []);
 
 	const connectWallet = async () => {
 		try {
