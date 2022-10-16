@@ -14,7 +14,7 @@ function App() {
   }, []);
   return (
     <main>
-       <h2> Hello World. from junjie</h2>
+       <h2> First modifiy the app. from junjie</h2>
     </main>
   );
 }
