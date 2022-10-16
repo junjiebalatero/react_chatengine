@@ -96,9 +96,9 @@ return (
           <br />
             <div width="100" height="100">
               <img
-                src="https://gateway.ipfs.io/ipfs/QmNgoacgbARoSn9vhAPYdDMzSnsow7dFCfHzeZKftJ1hRD"
+               // src="https://gateway.ipfs.io/ipfs/QmNgoacgbARoSn9vhAPYdDMzSnsow7dFCfHzeZKftJ1hRD"
                   
-                alt="junjie avatar"
+             //   alt="junjie avatar"
               />
             </div><br />
             <div>
