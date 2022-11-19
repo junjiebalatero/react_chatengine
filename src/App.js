@@ -6,12 +6,6 @@ function App() {
   return (
     <main>
 
-
-<div id="tippin-button" data-dest="JunjieBalatero" style="background:#26282F"></div>
-<script src="https://tippin.me/buttons/tip.js" type="text/javascript"></script>
-<!-- End of tippin.me Button -->
-
-
 <!-- Beginning of Backtrack -->
 <h3>Hotel California - Eagles - Backtrack</h3>
 <div>
@@ -47,7 +41,6 @@ function App() {
 <div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/axmc0PyGXHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
     </main>
   );
 }
