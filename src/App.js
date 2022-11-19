@@ -5,7 +5,10 @@ import "./App.css";
 function App() {  
   return (
     <main>
-      <iframe id="odysee-iframe" width="560" height="315" src="https://odysee.com/$/embed/@FeelSoGood:8/A-demo-of-Connect-to-Metamask-connect-amd-read-data-of-smart-contract:a?r=374S1egGkRy5sCNiBBNZuqfzX2te3Vv2" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://dwqte-viaaa-aaaai-qaufq-cai.raw.ic0.app/embed/5789-3486" title="DSocial video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://dwqte-viaaa-aaaai-qaufq-cai.raw.ic0.app/embed/5789-3485" title="DSocial video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://dwqte-viaaa-aaaai-qaufq-cai.raw.ic0.app/embed/5789-3435" title="DSocial video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://dwqte-viaaa-aaaai-qaufq-cai.raw.ic0.app/embed/5789-3434" title="DSocial video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
     </main>
   );
 }
