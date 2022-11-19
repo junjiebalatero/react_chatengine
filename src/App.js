@@ -5,38 +5,7 @@ import "./App.css";
 function App() {  
   return (
     <main>
-    <style type="text/css">
-body {
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-font-size: 112.5%;
-margin-left: auto;
-margin-right: auto;
-max-width: 40em;
-width: 88%;
-background-color: lightgray;
-}
-.accordion {
-display: none;
-}
-.accordion.active {
-display: block;
-}        
-/* ---- BACK TO TOP FUNCTIONALITY - STYLE - START ----- */
-#myBtn {
-display: none;
-position: fixed;
-bottom: 20px;
-right: 30px;
-z-index: 99;
-font-size: 18px;
-border: none;
-outline: none;
-background-color: red;
-color: white;
-cursor: pointer;
-padding: 15px;
-border-radius: 4px;
-}
+
 #myBtn:hover {
 background-color: #555;}
 /* ---- BACK TO TOP FUNCTIONALITY - STYLE - END ----- */
