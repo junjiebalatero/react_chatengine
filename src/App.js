@@ -6,23 +6,12 @@ function App() {
   return (
     <main>
 
-<body>
-<!-- BACK TO TOP FUNCTINALITY - start-->
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<!-- BACK TO TOP FUNCTINALITY - end-->
 
-<h1>Mardz Online Songhits</h1> 
-<!-- Beginning of tippin.me Button -->
 <div id="tippin-button" data-dest="JunjieBalatero" style="background:#26282F"></div>
 <script src="https://tippin.me/buttons/tip.js" type="text/javascript"></script>
 <!-- End of tippin.me Button -->
 
-<!-- SEARCH FUNCTINALITY - START-->
-<h2>Mardz Search</h2>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for a song.." title="Type in a song">
-<!-- SEARCH FUNCTINALITY - END-->
 
-<!-- Beginning of Songhits List -->
 
 <ul id="myUL">
 
@@ -4241,119 +4230,6 @@ For I can't help falling in love with you
 <div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/axmc0PyGXHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<br>        
-<!-- End of Backtrack -->
-<br>    
-
-<!-- Scripts -->
-<script>
-/**
-* Simple expand/collapse
-*/
-// document.addEventListener('click', function (event) {
-// 	// Only run if the clicked link was an accordion toggle
-// 	if ( !event.target.classList.contains('accordion-toggle') ) return;
-// 	// Get the target content
-// 	var content = document.querySelector(event.target.hash);
-// 	if ( !content ) return;
-// // Prevent default link behavior
-// event.preventDefault();
-// 	// Expand/collapse the content area
-// 	content.classList.toggle('active');
-// }, false);
-/**
-* Accordion functionality
-*/
-// Add your JavaScript here...
-document.addEventListener('click', function (event) {
-
-// Only run if the clicked link was an accordion toggle
-if ( !event.target.classList.contains('accordion-toggle') ) return;
-
-// Get the target content
-var content = document.querySelector(event.target.hash);
-if ( !content ) return;
-
-// Prevent default link behavior
-event.preventDefault();
-
-// If the content is already expanded, collapse it and quit
-if ( content.classList.contains('active') ) {
-content.classList.remove('active');
-return;
-}
-
-// Get all accordion content, loop through it, and close it
-var accordions = document.querySelectorAll('.accordion');
-for (var i = 0; i < accordions.length; i++) {
-accordions[i].classList.remove('active');
-}
-
-// Open our target content area
-content.classList.add('active');
-
-}, false);
-</script>
-<!--BACK TO TOP FUNCTIONALITY - JQUERY - START--->
-<!-- jQuery CDN -->
-<script
-src="https://code.jquery.com/jquery-1.12.0.min.js">
-</script>
-<!-- Bootstrap Js CDN -->
-<script
-src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-</script>
-<script type="text/javascript">
-$(document).ready(function()
-{
-$('#sidebarCollapse').on('click', function()
-{
-$('#sidebar').toggleClass('active');
-});
-});
-</script>
-<!--BACK TO TOP FUNCTIONALITY - JQUERY - END--->
-<!-- BACK TO TOP FUNCTINALITY - start-->
-<script>
-//Get the button
-var mybutton = document.getElementById("myBtn");        
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};        
-function scrollFunction() {
-if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-mybutton.style.display = "block";
-} else {
-mybutton.style.display = "none";
-}
-}        
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-document.body.scrollTop = 0;
-document.documentElement.scrollTop = 0;
-}
-</script>
-<!-- BACK TO TOP FUNCTINALITY - end-->
-
-<!-- SEARCH FUNCTINALITY - START-->
-<script>
-function myFunction() {
-var input, filter, ul, li, a, i, txtValue;
-input = document.getElementById("myInput");
-filter = input.value.toUpperCase();
-ul = document.getElementById("myUL");
-li = ul.getElementsByTagName("li");
-for (i = 0; i < li.length; i++) {
-a = li[i].getElementsByTagName("a")[0];
-txtValue = a.textContent || a.innerText;
-if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        li[i].style.display = "";
-} else {
-        li[i].style.display = "none";
-}
-}
-}
-</script>
-<!-- SEARCH FUNCTINALITY - END-->
 
     </main>
   );
