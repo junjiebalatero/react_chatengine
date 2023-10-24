@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Mardz List of Web 3.0 app
+          Edit <code>src/App.js</code> Mardz List of Web 3.0 app
         </p>
         <a
           className="App-link"
-          href="https://chocolate-cooperative-herring-689.mypinata.cloud/ipfs/QmRohbyBXkoCLNZuLmLK2zsfTVtyjvCoiL686CP8jc5DZb"
+          href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello from Mardz
         </a>
       </header>
     </div>
