@@ -147,12 +147,88 @@ import React, { useState } from 'react';
     G  G6  G  G6  G
     -------------------------------------------------------------------
     `;
+    var takeiteasy = String.raw`
+    [Intro]
+    G       C/G  Am/G
+    G       C/G  Am/G
+    
+    [Verse]
+    G                   G
+            Well, I'm a runnin' down the road, tryin' to loosen my load,
+                        D     C
+    I've got seven women on my mind.
+    G                       D
+    Four that wanna own me, two that wanna stone me,
+    C                         G
+    one says she's a friend of mine. 
+            Em            C    G
+    Take it easy, take it ea - sy, 
+                  Am                C                Em
+    don't let the sound of your own wheels drive you crazy. 
+            C                   G              C            G
+    Lighten up while you still can, don't even try to under-stand, 
+                Am                 C                 G
+    just find a place to make your stand and take it easy. 
+                G
+    Well, I'm a standin' on a corner in Winslow, Arizona 
+                    D        C
+    and such a fine sight to see: 
+          G                   D
+    it's a girl, my Lord, in a flat bed Ford 
+            C                      G
+    slowin' down to take a look at me. 
+            Em   D             C     G
+    Come on, ba - by, don't say may - be. 
+            Am                 C             Em
+    I gotta know if your sweet love is gonna save me. 
+          C               G                  C               G
+    We may lose and we may win though we will never be here a-gain. 
+            Am               C              G
+    So open up, I'm climbin' in, so take it easy. 
+    
+    [Solo Сhords]
+    G            D  C
+    G       D       C       G
+    Em      D       C       G
+    Am      C       Em         D
+    
+    [Verse]
+                G
+    Well, I'm a runnin' down the road, tryin' to loosen my load, 
+                          D     Am7
+    got a world of trouble on my mind. 
+    G                       D
+    Lookin' for a lover who won't blow my cover, 
+          C          G
+    she's so hard to find. 
+            Em            C    G
+    Take it easy, take it ea - sy, 
+                  Am                C                Em
+    don't let the sound of your own wheels drive you crazy. 
+            C    G             C     G
+    Come on, ba - by, don't say may - be. 
+            Am                 C             G
+    I gotta know if your sweet love is gonna saaaaaave me. 
+    
+    [Bridge]
+    C            C             G             G
+    oooo oo oo   oooo oo oo    oooo oo oo    oooo oo oo
+    C            C            G             G
+    oooo oo oo   ooo oo oo    oooo oo oo    oooo oo oo   
+    C            C                        G         Dm7/G   C
+    oooo oo oo   ooo oo oo  Oh, we got it eeea   ea-ea     -sy, 
+    C                    G         Dm7/G    C       Em .........
+    we ought  to take it eeea   ea-ea      -sy,                   
+    `;
   return (
-      <div style={backgroundColorStyle}>       
-          <center><h2>Simply Jessie</h2></center>
-          <h2><pre> {simpleJessie} </pre></h2>
+      <div style={backgroundColorStyle}>   
+          
+          <center><h2>Take It Easy</h2></center>
+          <h2><pre> {takeiteasy} </pre></h2>          
           <center><h2>Tequila Sunrise</h2></center>
           <h2><pre> {tequilaSunrise} </pre></h2>
+          <center><h2>Simply Jessie</h2></center>
+          <h2><pre> {simpleJessie} </pre></h2>
       </div>
   )
 };
