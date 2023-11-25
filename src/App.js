@@ -146,9 +146,9 @@ const Header = () => {
   return (
       <div>         
           <center><h2>Simply Jessie</h2></center>
-          <pre> {simpleJessie} </pre>
+          <h2><pre> {simpleJessie} </pre></h2>
           <center><h2>Tequila Sunrise</h2></center>
-          <pre> {tequilaSunrise} </pre>
+          <h2><pre> {tequilaSunrise} </pre></h2>
       </div>
   )
 };
