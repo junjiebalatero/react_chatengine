@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 
-const Header = () => {
+    const backgroundColorStyle = {
+      backgroundColor: 'lightgray', // Change 'blue' to the color you want
+    };
+
+    const Header = () => {
 
     var simpleJessie = String.raw`
     [Intro]
@@ -144,7 +148,7 @@ const Header = () => {
     -------------------------------------------------------------------
     `;
   return (
-      <div>         
+      <div style={backgroundColorStyle}>       
           <center><h2>Simply Jessie</h2></center>
           <h2><pre> {simpleJessie} </pre></h2>
           <center><h2>Tequila Sunrise</h2></center>
