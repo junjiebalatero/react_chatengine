@@ -1,20 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
 
-function App() {
+const MultiCollapseExample = () => {
+  const [collapsedStates, setCollapsedStates] = useState([true, true, true]);
+
+  const toggleCollapse = (index) => {
+    const newCollapsedStates = [...collapsedStates];
+    newCollapsedStates[index] = !newCollapsedStates[index];
+    setCollapsedStates(newCollapsedStates);
+  };
+
   return (
-      <div>
-        Hello JUnjie
-        <h2>Search A Song or Artist Here:</h2>
-           <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for a song.." title="Type in a song"></input>
-<a class="accordion-toggle" href="#content-a">
-  1 - Simply Jessie by Rex Smith</a>
- class="accordion" id="content-a" 
-<pre>           
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LOSl_y8wVgM?si=Nz1JamDfBUYysPIv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</pre>
-      </div>      
-  );
-}
+    <div>
+      {collapsedStates.map((isCollapsed, index) => (
+        <div key={index}>
+          <button onClick={() => toggleCollapse(index)}>
+            {isCollapsed ? 'Expand' : 'Collapse'} Section {index + 1}
+          </button>
 
-export default App;
+          {isCollapsed ? null : (
+            <div>
+              {/* Content to be displayed when not collapsed */}
+              <p>
+                This content is visible when Section {index + 1} is not
+                collapsed.
+              </p>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default MultiCollapseExample;
