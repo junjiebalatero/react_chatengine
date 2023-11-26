@@ -223,88 +223,88 @@ import React, { useState } from 'react';
     var tilltherewasyou = String.raw`
     [Intro]
  
-F B7-9 Gm C7-9 (x2)
- 
- 
-[Verse 1]
- 
-F                     B7-9
-There were bells on a hill...
-      Gm               Bbm
-but I never heard them ringing.
-      F     Am    Abm     Gm
-No, I never heard them at all...
-C7-9           F   Gm C7-9
-till there was you.
- 
- 
-[Verse 2]
- 
-C7-9       F            B7-9
-There were birds in the sky...
-      Gm             Bbm
-but I never saw them winging.
-      F     Am  Abm     Gm
-No, I never saw them at all...
-C7-9           F   B7-9
-till there was you.
- 
- 
-[Chorus]
- 
-B7-9           Bb     Bbm           F
-Then there was music..and wonderful roses...
-     D           Gm     Gm7      G7
-they tell me, in sweet, fragrant meadows
-   C7        C7-9
-of dawn, and dew.
- 
- 
-[Verse 3]
- 
-C7-9      F        B7-9
-There was love all around...
-      Gm             Bbm
-but I never heard it singing.
-      F     Am    Abm   Gm
-No, I never heard it at all...
-C7-9           F  Gm B7-9
-till there was you.
- 
- 
-[Interlude]
- 
-C7-9   F    B7-9   Gm    Bbm
- 
-F     Am    Abm   Gm  C7-9     F  Gm B7-9
- 
- 
-[Chorus]
- 
-B7-9           Bb     Bbm           F
-Then there was music..and wonderful roses...
-     D           Gm     Gm7      G7
-they tell me, in sweet, fragrant meadows
-   C7        C7-9
-of dawn, and dew.
- 
- 
-[Verse 4]
- 
-C7-9      F        B7-9
-There was love all around...
-      Gm             Bbm
-but I never heard it singing.
-      F     Am    Abm   Gm
-No, I never heard it at all...
-C7-9           F
-till there was you.
- 
- 
-[Outro]
- 
-C7 E  C7           F   C#  F F7+
-ti....ll there was you.....
+    F B7-9 Gm C7-9 (x2)
+    
+    
+    [Verse 1]
+    
+    F                     B7-9
+    There were bells on a hill...
+          Gm               Bbm
+    but I never heard them ringing.
+          F     Am    Abm     Gm
+    No, I never heard them at all...
+    C7-9           F   Gm C7-9
+    till there was you.
+    
+    
+    [Verse 2]
+    
+    C7-9       F            B7-9
+    There were birds in the sky...
+          Gm             Bbm
+    but I never saw them winging.
+          F     Am  Abm     Gm
+    No, I never saw them at all...
+    C7-9           F   B7-9
+    till there was you.
+    
+    
+    [Chorus]
+    
+    B7-9           Bb     Bbm           F
+    Then there was music..and wonderful roses...
+        D           Gm     Gm7      G7
+    they tell me, in sweet, fragrant meadows
+      C7        C7-9
+    of dawn, and dew.
+    
+    
+    [Verse 3]
+    
+    C7-9      F        B7-9
+    There was love all around...
+          Gm             Bbm
+    but I never heard it singing.
+          F     Am    Abm   Gm
+    No, I never heard it at all...
+    C7-9           F  Gm B7-9
+    till there was you.
+    
+    
+    [Interlude]
+    
+    C7-9   F    B7-9   Gm    Bbm
+    
+    F     Am    Abm   Gm  C7-9     F  Gm B7-9
+    
+    
+    [Chorus]
+    
+    B7-9           Bb     Bbm           F
+    Then there was music..and wonderful roses...
+        D           Gm     Gm7      G7
+    they tell me, in sweet, fragrant meadows
+      C7        C7-9
+    of dawn, and dew.
+    
+    
+    [Verse 4]
+    
+    C7-9      F        B7-9
+    There was love all around...
+          Gm             Bbm
+    but I never heard it singing.
+          F     Am    Abm   Gm
+    No, I never heard it at all...
+    C7-9           F
+    till there was you.
+    
+    
+    [Outro]
+    
+    C7 E  C7           F   C#  F F7+
+    ti....ll there was you.....
     `;
   return (
       <div style={backgroundColorStyle}>   
