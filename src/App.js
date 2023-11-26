@@ -220,7 +220,7 @@ import React, { useState } from 'react';
     C                    G         Dm7/G    C       Em .........
     we ought  to take it eeea   ea-ea      -sy,                   
     `;
-    var takeiteasy = String.raw`
+    var tilltherewasyou = String.raw`
     [Intro]
  
 F B7-9 Gm C7-9 (x2)
